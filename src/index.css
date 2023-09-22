@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.total {
+  background-color: rgb(12, 31, 53);
+  gap: 30px;
+  height: 300vh;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.padre {
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.back_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 222.5vh;
+    height: 100vh;
+   background-image: url(../img/minecraft.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   border-radius: 0 0 20px 20px;
+}
+
+.profile {
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.profile_photo {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+} 
+
+.icon-container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+ 
+}
+
+.icons {
+  width: 20%;
+  height: 20%;
+   transition: transform 0.5s;
+}
+
+.mini-icons {
+  padding-top: 10px;
+  width: 15%;
+  height: 15%;
+
+}
+
+.icons:hover {
+  transform: translateY(-10px);
+}
+
+.profile_photo:hover {
+  transform: translateY(-10px);
+}
+
+.profile_photo {
+  transition: transform 0.5s ;
+}
+
+.icons-languagues {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 20px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.profile {
+    animation: slide-left 2s;
+  }
+  
+  @keyframes slide-left {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(0%);
+    }
+  }
+
+  .dad-container {
+    border-radius: 20px;
+    border: solid 2px;
+    border-color: rgb(255, 255, 255);
+    max-height: 370px;
+    max-width: 200vh;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+  }
+  
+  
+  .dad-container:hover {
+    transform: scale(1.05);
+    
+  }
+
+  .container-projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .leftcard-container {
+    width: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+
+  .img {
+    width: 30%;
+    height: 30%;
+  }
+
+  .large-text {
+    max-width: 370px;
+    padding-right: 100px;
+  }
+
+.icon-container {
+  width: 400px;
+}
+
+.mini-icons-container {
+  width: 200px;
+ 
+}
