@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 * {
     font-family: 'Nunito', sans-serif;
@@ -12,7 +13,7 @@ a {
 .total {
   background-color: rgb(12, 31, 53);
   gap: 30px;
-  height: 300vh;
+  height: 500vh;
 }
 
 .projects {
@@ -42,7 +43,7 @@ align-items: center;
     align-items: center;
     width: 222.5vh;
     height: 100vh;
-   background-image: url(../img/minecraft.jpg);
+   background-image: url(../img/roses.gif);
    background-size: cover;
    background-repeat: no-repeat;
    border-radius: 0 0 20px 20px;
@@ -74,12 +75,22 @@ align-items: center;
   width: 20%;
   height: 20%;
    transition: transform 0.5s;
+   font-family: 'Bebas Neue', sans-serif;
+   font-size: 18px;
 }
 
+.frameworks {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  gap: 20px;
+}
 .mini-icons {
   padding-top: 10px;
   width: 15%;
   height: 15%;
+  font-family: 'Bebas Neue', sans-serif;
+   font-size: 13px;
 
 }
 
@@ -169,5 +180,11 @@ align-items: center;
 
 .mini-icons-container {
   width: 200px;
+  gap: 5px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding-bottom: 10px;
+
  
 }

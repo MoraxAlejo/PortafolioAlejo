@@ -5,7 +5,9 @@ export const LeftCart = (props) => {
   const {icon} = props;
   const {icon2} = props;
   const {icon3} = props;
+  const {icon4} = props;
   const {img} = props;
+  const {framework} = props;
   return (
     <>
     <a href={link}>
@@ -22,9 +24,11 @@ export const LeftCart = (props) => {
            <p>Programmed By: </p>
            
            <div className="mini-icons-container">
-           <img src={icon} className="mini-icons" alt="" />
-           <img src={icon2} className="mini-icons" alt="" />
-           <img src={icon3} className="mini-icons" alt="" />
+            <img src={icon} className="mini-icons" alt="" /> 
+            <img src={icon2} className="mini-icons" alt="" /> 
+            <img src={icon3} className="mini-icons" alt="" /> 
+            <img src={icon4} className="mini-icons" alt="" /> 
+            <p className="mini-icons">{framework}</p>
            </div>
            </div>
            <p>Click to see it </p>

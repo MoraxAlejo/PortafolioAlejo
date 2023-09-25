@@ -17,6 +17,13 @@ export const Perfil = () => {
                           <img src="../img/next.svg" alt="" className="icons" />
                           <img src="../img/php.svg" alt="" className="icons" />
                         </div>
+                        <div className="frameworks">
+                        <img src="../img/tailwind.svg" alt="" className="icons" />
+                        <img src="../img/laravel.svg" alt="" className="icons" />
+                          <img src="../img/sql.svg" alt="" className="icons" />
+                          <img src="../img/mysql.svg" alt="" className="icons" />
+                        </div>
+                        
                     </div>
             </div>
 
