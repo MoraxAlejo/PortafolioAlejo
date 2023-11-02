@@ -6,7 +6,7 @@ export const Projects = () => {
   return (
     <>
     <div className='projects'>
-    <h1>These are some of my projects</h1>
+    <h1 className="projects-title">These are some of my projects</h1>
     
     <LeftCart img ={'/img/Shower.png'} icon = {'../img/next.svg'}  proyect = {"Wheater App"} text = 
     {"A weather app programmed with Next Js which has the ability to measure the climate of the city in which it is located and also with the ability to search the weather of almost all cities in the world registered in a wheater api"}

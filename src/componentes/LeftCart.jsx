@@ -18,7 +18,7 @@ export const LeftCart = (props) => {
         </div>
         <div className="large-text">
         <h1> {proyect} </h1>
-           <p>{text}</p>
+           <p className="description">{text}</p>
            
            <div className="icon-container">
            <p>Programmed By: </p>

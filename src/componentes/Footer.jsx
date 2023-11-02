@@ -19,7 +19,7 @@ export const Footer = () => {
                       <div className="phone-number"><img src="../img/phone.svg" alt="" /> <p>+57 3044696352</p> </div>  
                     </div>
                     <div className="phone-contact">
-                    <a href="../img/mycv.jpg" download="">
+                    <a href="../img/AlejandroUribeGuzman.pdf" download="">
  <div className="phone-number"><img src="../img/cv.svg" alt="" /> <p>Dowload My CV or Resume</p></div> </a> 
                     </div>
                     
