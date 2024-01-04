@@ -7,8 +7,8 @@ export const Perfil = () => {
             <div className='profile'>
                  <img className="profile_photo" src="../img/alejo.jpg" alt="" />
                     <div className="info">
-                        <h1>Hi! Im Alejandro Uribe</h1>
-                        <h2>A FullStack Web Develovper</h2>
+                        <h1 className="some">Hi! Im Alejandro Uribe</h1>
+                        <h2 className="some">A FullStack Web Develovper</h2>
                         <div className="icons-languagues">
                           <img src="../img/html.svg" alt="" className="icons" />
                           <img src="../img/css.svg" alt="" className="icons" />
